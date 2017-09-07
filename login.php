@@ -2,21 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>BreakTheNet</title>
+<title>Profile Pages</title>
 </head>
 <body bgcolor="#C3C3C3">
     <h3>
-      &gt; BreakTheNet Log-In
+      &gt; Profile Pages Log-In
     </h3>
     <table width="80%">
       <tr>
         <td width="50%">
           <fieldset>
-            <legend>About BreakTheNet</legend>
-            An XSS challenge - see if you can become logged in as the "admin" user.<br><br>
-            Note that to do so, you'll need to create your own account and create an XSS attack on your user profile.<br><br>
-            For purposes of this challenge, anything you successfully "alert()" in the admin's browser will be passed along to you.<br><br>
-            Feel free to review the source code as part of the challenge <a href='https://github.com/breakthenet/CTF-XSS-Challenge'>here</a>.
+            <legend>About Profile Pages</legend>
+            Create your own account on Profile Pages!<br><br>
+            Profile pages is a site that allows you to post HTML and Javascript on your profile.<br><br>
+            For purposes of this challenge, we have created a button to force an Administrator to view your profile.
+            Anything you successfully "alert()" in the admin's browser will be passed along to you! See if you can steal the Administrator's session...<br><br>
           </fieldset>
         </td>
         <td>
